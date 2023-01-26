@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expansive Tracker</title>
+    <!-- font cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Expense Tracker</h1>
+      <!-- balance section -->
+      <div class="balance">
+        <p class="title">YOUR BALANCE</p>
+        <h2 class="amount"><span id="balance">$0.00</span></h2>
+        <div class="income">
+          <p class="para">INCOME<br /><span id="plus">$0.00</span></p>
+          <p class="para-1">EXPENSE<br /><span id="minus">$0.00</span></p>
+        </div>
+      </div>
+      <!-- History section -->
+      <div class="history">
+        <h2 class="sec">History</h2>
+        <hr />
+        <div class="container">
+          <ul id="cash"></ul>
+        </div>
+      </div>
+      <!-- transaction section -->
+      <div class="transaction">
+        <h2>Add New transaction</h2>
+        <hr />
+        <!-- label -->
+        <!-- text -->
+        <form id="form">
+          <div class="label">
+            <label for="text">text</label>
+            <input
+              type="text"
+              class="input"
+              id="transaction"
+              placeholder="please add a text"
+            />
+          </div>
+          <!-- amount -->
+          <div class="label">
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              id="amount"
+              class="input"
+              placeholder="please add a amount"
+            />
+          </div>
+          <button class="btn" id="submit">Add Transaction</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- script.js -->
+    <script src="./script.js"></script>
+  </body>
+</html>

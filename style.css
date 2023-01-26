@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-image: url(554c836844c5f032b9a2e21b70b044a9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  background-color: black;
+  border: 2px solid black;
+  color: aliceblue;
+  width: 33rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 40px;
+}
+.balance {
+  margin-top: 50px;
+  font-size: 17px;
+  margin-left: 1rem;
+}
+.income {
+  margin: 3rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  border: 2px solid rgb(7, 157, 42);
+
+  margin-top: 30px;
+}
+.para {
+  padding-right: 40px;
+  border-right: 2px solid rgb(22, 112, 17);
+}
+
+ul {
+  padding: 0;
+  width: 90%;
+  height: 50%;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.history {
+  margin: 1rem;
+}
+.transaction {
+  margin: 1rem;
+}
+.label {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 26rem;
+  height: 32px;
+  border-radius: 2px;
+  margin: 5px;
+}
+.btn {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 2rem;
+  color: azure;
+  border: 2px solid rgb(11, 11, 12);
+  background-color: rgb(8, 8, 10);
+  margin-left: 6rem;
+}
+li {
+  margin: 6px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  color: black;
+}
+.fa-solid {
+  width: 20px;
+  height: 13px;
+}
+.plus {
+  background-color: #03ae22;
+}
+
+.minus {
+  background-color: #eb0d0d;
+}
+input:hover{
+  border:2px dotted rgb(24, 23, 23);
+}
+.btn:hover{
+  color: blue;
+  border: 2px dotted blue;
+}
